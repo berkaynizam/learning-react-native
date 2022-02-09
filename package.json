@@ -7,16 +7,29 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "generate": "npx react-native generate-bootsplash ./src/assets/original_icon.png --background-color=2EE59D   --logo-width=100 --assets-path=./src/assets --flavor=main"
   },
   "dependencies": {
+    "@react-native-community/geolocation": "^2.0.2",
     "@react-navigation/bottom-tabs": "^6.2.0",
+    "@react-navigation/drawer": "^6.3.0",
     "@react-navigation/native": "^6.0.8",
     "@react-navigation/native-stack": "^6.4.1",
+    "@reduxjs/toolkit": "^1.7.2",
+    "axios": "^0.25.0",
     "react": "17.0.2",
     "react-native": "0.67.2",
+    "react-native-dotenv": "^3.3.1",
+    "react-native-gesture-handler": "^2.2.0",
+    "react-native-maps": "0.30.1",
+    "react-native-reanimated": "^2.3.1",
     "react-native-safe-area-context": "^3.3.2",
-    "react-native-screens": "^3.10.2"
+    "react-native-screens": "^3.10.2",
+    "react-native-svg": "^12.1.1",
+    "react-native-svg-transformer": "^1.0.0",
+    "react-redux": "^7.2.6",
+    "reanimated-bottom-sheet": "^1.0.0-alpha.22"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
